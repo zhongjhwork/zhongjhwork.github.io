@@ -117,7 +117,7 @@ pnpm preview
   },
   // waline 评论系统，前往 https://waline.js.org/ 查看
   "waline": {
-    "serverURL": ""
+    "serverURL": "mysql://25dh65CRdD5GfPi.root:2XSD5YZF7w5gOU4Z@gateway01.us-east-1.prod.aws.tidbcloud.com:4000/waline?ssl={"rejectUnauthorized":true}"
   },
   // 赞助
   "sponsor": {
