@@ -5,7 +5,7 @@ lastMod: 2024-05-08T13:41:24.948Z
 summary: 欢迎使用 Gyoza，Gyoza 是一款 Astro 博客主题，它保持简洁和可爱的风格。本篇文章将会介绍如何使用并部署 Gyoza。
 category: 教程
 tags: [Astro, Gyoza]
-sticky: 1
+
 draft: true
 ---
 
@@ -117,7 +117,7 @@ pnpm preview
   },
   // waline 评论系统，前往 https://waline.js.org/ 查看
   "waline": {
-    "serverURL": "mysql://25dh65CRdD5GfPi.root:2XSD5YZF7w5gOU4Z@gateway01.us-east-1.prod.aws.tidbcloud.com:4000/waline?ssl={"rejectUnauthorized":true}"
+    "serverURL": "https://waline.lxchapu.com"
   },
   // 赞助
   "sponsor": {
